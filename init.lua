@@ -502,6 +502,8 @@ require('lazy').setup {
     },
 
     {
+        -- See the short description in the header of /nvim/lua/jdtls/jdtls_setup.lua
+        -- for sources on how to setup nvim-jdtls.
         'mfussenegger/nvim-jdtls',
         config = function()
             vim.api.nvim_create_autocmd('FileType', {

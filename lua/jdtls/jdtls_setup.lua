@@ -1,3 +1,8 @@
+-- LukeElrod has a great video on setting up jdtls, which is frustrating to get
+-- working. I highly recommend his video (https://www.youtube.com/watch?v=iaetgcEzByY).
+-- His GitHub features an updated setup script without the static paths he had in the video.
+-- This is where I got this setup script from: https://github.com/LukeElrod/nvim
+
 local M = {}
 
 function M:setup()
